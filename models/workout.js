@@ -42,6 +42,7 @@ const workoutSchema = new Schema({
       },
       distance: {
         // TODO: For the schema of this attribute, define type as number
+        type: Number,
       },
     },
   ],
